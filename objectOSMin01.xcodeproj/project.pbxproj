@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		"04C5593F-DC42-4FD7-8CC2-6C9984222978" /* VStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "F1FDB6E9-7930-4A58-8720-148DB528FDB7" /* VStack.cpp */; };
+		"0E1479E5-99FC-4D7B-A03D-0024E0A82023" /* pushGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "7CAB2380-DD17-410F-88A2-CC005F0E9637" /* pushGrid.cpp */; };
+		"0E9AE0B0-9E48-45CC-8EC9-E980B2951D2E" /* splitGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "EDF5BAE7-AA47-45AF-9BD2-44417ADA7E88" /* splitGrid.cpp */; };
+		"15C1F12C-A348-4999-A5F5-D57E9CCC1300" /* objectOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "38E74B6F-B550-4114-8EAF-B719E73BC314" /* objectOS.cpp */; };
+		"4468373D-3C28-4457-99D3-D6F71BB196D8" /* togeToge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "DE3E7116-D4AD-4BF3-BAC2-B9A966A3FC7A" /* togeToge.cpp */; };
+		"4D6C9178-9987-4953-93E6-49EE9611BC66" /* vipGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "82D5C487-FDB6-4849-A73B-BC55CEF78F8E" /* vipGrid.cpp */; };
+		"56E261D9-2A89-4CF7-8A53-E662C3F94963" /* colorWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "5FC9CA64-A931-48A5-A20E-2FF737D0333D" /* colorWorld.cpp */; };
+		"61DA6350-B412-45A0-BBA1-EC00EE92F39E" /* badMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "F6E90A02-76F3-4324-9747-259C19D68B5C" /* badMode.cpp */; };
+		"62DD237F-22B2-4745-B7EA-5877B69C4806" /* flashCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9553868D-99A0-4A75-B9A5-20FA64C0FA7E" /* flashCover.cpp */; };
+		"6A31E6B5-E245-49E6-A367-3E536A013C9C" /* emergeScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "5E0BFC46-AD51-468C-8919-DC19E8EF7DCD" /* emergeScreen.cpp */; };
+		"76D46253-2443-4762-9E53-1D0E8160A3F1" /* videoCloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "AECD9D26-001B-4CB5-8A33-DB03FC2B182F" /* videoCloud.cpp */; };
+		"8718142B-05F1-4A88-A05C-C81240EC6881" /* pikaCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "9A001E64-C4E3-401B-99A3-41B427AEF54A" /* pikaCover.cpp */; };
+		"9FDD73B5-4CBA-42EE-882E-C60F51BBF511" /* fragScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "E8BF7442-CAE4-4231-9EF7-508A00099641" /* fragScreen.cpp */; };
+		"B748C73A-5126-4E01-B7D7-DDC50E5F8B6E" /* colorCloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "01FA4638-2AE6-424F-9AEF-FD3BC599644A" /* colorCloud.cpp */; };
+		"B9445A0A-3B94-4D0E-B4FE-C369A86974E9" /* marginBand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "1E6DB3DC-03BA-4462-B8ED-631C766C5D76" /* marginBand.cpp */; };
+		"BA25FB81-47F7-4CF8-ACEB-7BF64352E543" /* nuWit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "4F05D06B-7A50-4EC5-97E2-2E242DAB6318" /* nuWit.cpp */; };
+		"C2036885-8C5C-4456-B3E5-38AC4F5F8A88" /* HStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "69F06C91-C6C1-45BB-B513-B1562EE1C1D8" /* HStack.cpp */; };
+		"C9BA44C4-8B56-40CF-96B7-D60D02A7439A" /* blackCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "7E5555FE-E947-469A-BEB2-EB37494A4D33" /* blackCover.cpp */; };
+		"D0DA8009-954E-4420-9CE6-F992851E7E71" /* wordCloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "E438579B-196B-4622-9D9E-692BDAA33515" /* wordCloud.cpp */; };
+		"DCD3921D-20A7-4879-9195-B0B6AB974D66" /* oddCover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "C4B7E870-0529-4333-8487-5490E583CDE4" /* oddCover.cpp */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		"F86BE193-8AD7-422E-ADD3-03C0250E7AFE" /* ofxTskokmtMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "84EE5A90-FDAE-4BCC-BC77-D469117219A3" /* ofxTskokmtMath.cpp */; };
+		"FB06EE4C-7CB9-4415-9D1E-620A6D1C5FD1" /* slideGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "FE1BB094-0B9E-42D6-A06E-E358AC28D1ED" /* slideGrid.cpp */; };
+		"FB27FA18-A43A-454A-A8F1-3C4E8CE3B3A5" /* twoTone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "6AB420A2-BBDC-4C63-8D81-EC87929C2267" /* twoTone.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4A5B60F29BAAAE400C2D356 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		"01FA4638-2AE6-424F-9AEF-FD3BC599644A" /* colorCloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorCloud.cpp; path = src/colorCloud.cpp; sourceTree = SOURCE_ROOT; };
+		"08F517DB-B49B-47A3-ADAE-FBEE78F651F5" /* blackCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = blackCover.h; path = src/modules/cover/blackCover.h; sourceTree = SOURCE_ROOT; };
+		"0C507F73-2AA7-4EF9-AA66-9D455ADA0831" /* badMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = badMode.h; path = src/modules/graphic/badMode.h; sourceTree = SOURCE_ROOT; };
+		191CD6FA2847E21E0085CBB6 /* of.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = of.entitlements; sourceTree = "<group>"; };
+		191EF70929D778A400F35F26 /* openFrameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = openFrameworks; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/libs/openFrameworks; sourceTree = SOURCE_ROOT; };
+		"1921D2A4-AD1A-40A5-ACED-C6E17583F288" /* HStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HStack.h; path = src/addons/ofxFrameOcean/src/HStack.h; sourceTree = SOURCE_ROOT; };
+		"1E6DB3DC-03BA-4462-B8ED-631C766C5D76" /* marginBand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = marginBand.cpp; path = src/addons/ofxFrameOcean/src/marginBand.cpp; sourceTree = SOURCE_ROOT; };
+		"237280C6-4E03-4A9B-B0E1-D3AE510487DA" /* pikaCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pikaCover.h; path = src/modules/cover/pikaCover.h; sourceTree = SOURCE_ROOT; };
+		"23FB02F2-8FB1-4E9E-A6F8-BB8A13BF1510" /* wordCloud.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wordCloud.h; path = src/wordCloud.h; sourceTree = SOURCE_ROOT; };
+		"2D3B3E16-6BEE-4421-9EB2-9333D580AAD5" /* twoTone.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = twoTone.h; path = src/modules/chrome/twoTone.h; sourceTree = SOURCE_ROOT; };
+		"2EE2DB75-DB80-4D05-B88F-2D859F072184" /* objectOS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = objectOS.h; path = src/objectOS.h; sourceTree = SOURCE_ROOT; };
+		"318E3809-CA83-4419-A3E3-98BC038CCE91" /* fragScreen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fragScreen.h; path = src/modules/screen/fragScreen.h; sourceTree = SOURCE_ROOT; };
+		"38E74B6F-B550-4114-8EAF-B719E73BC314" /* objectOS.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = objectOS.cpp; path = src/objectOS.cpp; sourceTree = SOURCE_ROOT; };
+		"422B681C-7F90-4155-B301-E11FB3717C02" /* marginBand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = marginBand.h; path = src/addons/ofxFrameOcean/src/marginBand.h; sourceTree = SOURCE_ROOT; };
+		"42EBF29C-6350-4A43-9A3A-7554C5E33FE1" /* ofxTskokmtMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTskokmtMath.h; path = src/addons/ofxTskokmtMath/src/ofxTskokmtMath.h; sourceTree = SOURCE_ROOT; };
+		"4961443B-86BD-43F4-A8C3-EA73FBBF4CB0" /* VStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VStack.h; path = src/addons/ofxFrameOcean/src/VStack.h; sourceTree = SOURCE_ROOT; };
+		"4F05D06B-7A50-4EC5-97E2-2E242DAB6318" /* nuWit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nuWit.cpp; path = src/modules/graphic/nuWit.cpp; sourceTree = SOURCE_ROOT; };
+		"5E0BFC46-AD51-468C-8919-DC19E8EF7DCD" /* emergeScreen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emergeScreen.cpp; path = src/modules/screen/emergeScreen.cpp; sourceTree = SOURCE_ROOT; };
+		"5FC9CA64-A931-48A5-A20E-2FF737D0333D" /* colorWorld.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorWorld.cpp; path = src/modules/chrome/colorWorld.cpp; sourceTree = SOURCE_ROOT; };
+		"6130C862-C33B-4BF2-953B-8F8CA9A761FD" /* flashCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flashCover.h; path = src/modules/cover/flashCover.h; sourceTree = SOURCE_ROOT; };
+		"69F06C91-C6C1-45BB-B513-B1562EE1C1D8" /* HStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HStack.cpp; path = src/addons/ofxFrameOcean/src/HStack.cpp; sourceTree = SOURCE_ROOT; };
+		"6AB420A2-BBDC-4C63-8D81-EC87929C2267" /* twoTone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = twoTone.cpp; path = src/modules/chrome/twoTone.cpp; sourceTree = SOURCE_ROOT; };
+		"7CAB2380-DD17-410F-88A2-CC005F0E9637" /* pushGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pushGrid.cpp; path = src/modules/screen/pushGrid.cpp; sourceTree = SOURCE_ROOT; };
+		"7DC77D27-1570-485B-B1AE-771000D1D711" /* oddCover.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = oddCover.h; path = src/modules/cover/oddCover.h; sourceTree = SOURCE_ROOT; };
+		"7E5555FE-E947-469A-BEB2-EB37494A4D33" /* blackCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blackCover.cpp; path = src/modules/cover/blackCover.cpp; sourceTree = SOURCE_ROOT; };
+		"81152E07-4235-495A-B048-1CD558ABEB30" /* emergeScreen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = emergeScreen.h; path = src/modules/screen/emergeScreen.h; sourceTree = SOURCE_ROOT; };
+		"82D5C487-FDB6-4849-A73B-BC55CEF78F8E" /* vipGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vipGrid.cpp; path = src/modules/screen/vipGrid.cpp; sourceTree = SOURCE_ROOT; };
+		"84C2C615-D835-4965-95DB-ABB54CFC0900" /* vipGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vipGrid.h; path = src/modules/screen/vipGrid.h; sourceTree = SOURCE_ROOT; };
+		"84EE5A90-FDAE-4BCC-BC77-D469117219A3" /* ofxTskokmtMath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxTskokmtMath.cpp; path = src/addons/ofxTskokmtMath/src/ofxTskokmtMath.cpp; sourceTree = SOURCE_ROOT; };
+		"9553868D-99A0-4A75-B9A5-20FA64C0FA7E" /* flashCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flashCover.cpp; path = src/modules/cover/flashCover.cpp; sourceTree = SOURCE_ROOT; };
+		"9631AA75-3030-4B79-A6F0-83FB6555F6B7" /* colorCloud.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorCloud.h; path = src/colorCloud.h; sourceTree = SOURCE_ROOT; };
+		"9A001E64-C4E3-401B-99A3-41B427AEF54A" /* pikaCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pikaCover.cpp; path = src/modules/cover/pikaCover.cpp; sourceTree = SOURCE_ROOT; };
+		"AECD9D26-001B-4CB5-8A33-DB03FC2B182F" /* videoCloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = videoCloud.cpp; path = src/videoCloud.cpp; sourceTree = SOURCE_ROOT; };
+		"BF178DC0-748E-41D3-AA6A-8375A84A3B6F" /* splitGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = splitGrid.h; path = src/modules/screen/splitGrid.h; sourceTree = SOURCE_ROOT; };
+		"C4B7E870-0529-4333-8487-5490E583CDE4" /* oddCover.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oddCover.cpp; path = src/modules/cover/oddCover.cpp; sourceTree = SOURCE_ROOT; };
+		"C51F9047-1FC6-4CBD-898D-8DF1FF5822A1" /* colorWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorWorld.h; path = src/modules/chrome/colorWorld.h; sourceTree = SOURCE_ROOT; };
+		"C58B1971-B404-4DAC-928F-11D310B2CE76" /* slideGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = slideGrid.h; path = src/modules/screen/slideGrid.h; sourceTree = SOURCE_ROOT; };
+		"C6928B1E-37F0-4EAB-91BB-1A5B7D9AE73D" /* togeToge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = togeToge.h; path = src/modules/graphic/togeToge.h; sourceTree = SOURCE_ROOT; };
+		"D9FFDC1D-88CD-47BB-B2C3-F6D02E0CA3D4" /* pushGrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pushGrid.h; path = src/modules/screen/pushGrid.h; sourceTree = SOURCE_ROOT; };
+		"DE3E7116-D4AD-4BF3-BAC2-B9A966A3FC7A" /* togeToge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = togeToge.cpp; path = src/modules/graphic/togeToge.cpp; sourceTree = SOURCE_ROOT; };
+		"E438579B-196B-4622-9D9E-692BDAA33515" /* wordCloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wordCloud.cpp; path = src/wordCloud.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* objectOSMin01Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objectOSMin01Debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		"E8BF7442-CAE4-4231-9EF7-508A00099641" /* fragScreen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fragScreen.cpp; path = src/modules/screen/fragScreen.cpp; sourceTree = SOURCE_ROOT; };
+		"EDF5BAE7-AA47-45AF-9BD2-44417ADA7E88" /* splitGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = splitGrid.cpp; path = src/modules/screen/splitGrid.cpp; sourceTree = SOURCE_ROOT; };
+		"F1FDB6E9-7930-4A58-8720-148DB528FDB7" /* VStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VStack.cpp; path = src/addons/ofxFrameOcean/src/VStack.cpp; sourceTree = SOURCE_ROOT; };
+		"F3094085-7EF6-45D3-96C7-5D38FDD2CC63" /* nuWit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nuWit.h; path = src/modules/graphic/nuWit.h; sourceTree = SOURCE_ROOT; };
+		"F5CA23D6-C931-4A3A-930C-6910A699C381" /* videoCloud.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = videoCloud.h; path = src/videoCloud.h; sourceTree = SOURCE_ROOT; };
+		"F6E90A02-76F3-4324-9747-259C19D68B5C" /* badMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = badMode.cpp; path = src/modules/graphic/badMode.cpp; sourceTree = SOURCE_ROOT; };
+		"FD8217E1-A598-4F54-A1F2-C20C2B8774CC" /* ofxFrameOcean.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFrameOcean.h; path = src/addons/ofxFrameOcean/src/ofxFrameOcean.h; sourceTree = SOURCE_ROOT; };
+		"FE1BB094-0B9E-42D6-A06E-E358AC28D1ED" /* slideGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = slideGrid.cpp; path = src/modules/screen/slideGrid.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		"097D9903-5B85-4B97-8163-9B97CB69748D" /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				"3C5CB75C-61C6-41AC-AE59-3E2834486B22" /* chrome */,
+				"C343767E-DF9C-45D6-A609-9FB602F5F827" /* cover */,
+				"F7976042-6CCA-4103-8D23-73BE74CADD39" /* graphic */,
+				"68AFC15A-E071-4C8E-B230-9A00B5CF3699" /* screen */,
+			);
+			name = modules;
+			path = src/modules;
+			sourceTree = SOURCE_ROOT;
+		};
+		"36F6EBEE-5B79-4BCA-BB0A-890CD674A7DE" /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				"69873648-1CDA-4A1E-820B-D96F48EF264A" /* ofxFrameOcean */,
+				"8028ACAF-8AEC-4D70-9488-71E0B4BC5C11" /* ofxTskokmtMath */,
+			);
+			name = addons;
+			path = src/addons;
+			sourceTree = SOURCE_ROOT;
+		};
+		"3C5CB75C-61C6-41AC-AE59-3E2834486B22" /* chrome */ = {
+			isa = PBXGroup;
+			children = (
+				"5FC9CA64-A931-48A5-A20E-2FF737D0333D" /* colorWorld.cpp */,
+				"C51F9047-1FC6-4CBD-898D-8DF1FF5822A1" /* colorWorld.h */,
+				"6AB420A2-BBDC-4C63-8D81-EC87929C2267" /* twoTone.cpp */,
+				"2D3B3E16-6BEE-4421-9EB2-9333D580AAD5" /* twoTone.h */,
+			);
+			name = chrome;
+			path = src/modules/chrome;
+			sourceTree = SOURCE_ROOT;
+		};
+		"68AFC15A-E071-4C8E-B230-9A00B5CF3699" /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				"5E0BFC46-AD51-468C-8919-DC19E8EF7DCD" /* emergeScreen.cpp */,
+				"81152E07-4235-495A-B048-1CD558ABEB30" /* emergeScreen.h */,
+				"E8BF7442-CAE4-4231-9EF7-508A00099641" /* fragScreen.cpp */,
+				"318E3809-CA83-4419-A3E3-98BC038CCE91" /* fragScreen.h */,
+				"7CAB2380-DD17-410F-88A2-CC005F0E9637" /* pushGrid.cpp */,
+				"D9FFDC1D-88CD-47BB-B2C3-F6D02E0CA3D4" /* pushGrid.h */,
+				"FE1BB094-0B9E-42D6-A06E-E358AC28D1ED" /* slideGrid.cpp */,
+				"C58B1971-B404-4DAC-928F-11D310B2CE76" /* slideGrid.h */,
+				"EDF5BAE7-AA47-45AF-9BD2-44417ADA7E88" /* splitGrid.cpp */,
+				"BF178DC0-748E-41D3-AA6A-8375A84A3B6F" /* splitGrid.h */,
+				"82D5C487-FDB6-4849-A73B-BC55CEF78F8E" /* vipGrid.cpp */,
+				"84C2C615-D835-4965-95DB-ABB54CFC0900" /* vipGrid.h */,
+			);
+			name = screen;
+			path = src/modules/screen;
+			sourceTree = SOURCE_ROOT;
+		};
+		"69873648-1CDA-4A1E-820B-D96F48EF264A" /* ofxFrameOcean */ = {
+			isa = PBXGroup;
+			children = (
+				"D147FDE5-7A42-4D5A-8364-3484D4E7F951" /* src */,
+			);
+			name = ofxFrameOcean;
+			path = src/addons/ofxFrameOcean;
+			sourceTree = SOURCE_ROOT;
+		};
+		"8028ACAF-8AEC-4D70-9488-71E0B4BC5C11" /* ofxTskokmtMath */ = {
+			isa = PBXGroup;
+			children = (
+				"89D66944-50F9-493F-BF2A-3365F4E8BC39" /* src */,
+			);
+			name = ofxTskokmtMath;
+			path = src/addons/ofxTskokmtMath;
+			sourceTree = SOURCE_ROOT;
+		};
+		"89D66944-50F9-493F-BF2A-3365F4E8BC39" /* src */ = {
+			isa = PBXGroup;
+			children = (
+				"84EE5A90-FDAE-4BCC-BC77-D469117219A3" /* ofxTskokmtMath.cpp */,
+				"42EBF29C-6350-4A43-9A3A-7554C5E33FE1" /* ofxTskokmtMath.h */,
+			);
+			name = src;
+			path = src/addons/ofxTskokmtMath/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = addons;
+			path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons;
+			sourceTree = "<group>";
+		};
+		"C343767E-DF9C-45D6-A609-9FB602F5F827" /* cover */ = {
+			isa = PBXGroup;
+			children = (
+				"7E5555FE-E947-469A-BEB2-EB37494A4D33" /* blackCover.cpp */,
+				"08F517DB-B49B-47A3-ADAE-FBEE78F651F5" /* blackCover.h */,
+				"9553868D-99A0-4A75-B9A5-20FA64C0FA7E" /* flashCover.cpp */,
+				"6130C862-C33B-4BF2-953B-8F8CA9A761FD" /* flashCover.h */,
+				"C4B7E870-0529-4333-8487-5490E583CDE4" /* oddCover.cpp */,
+				"7DC77D27-1570-485B-B1AE-771000D1D711" /* oddCover.h */,
+				"9A001E64-C4E3-401B-99A3-41B427AEF54A" /* pikaCover.cpp */,
+				"237280C6-4E03-4A9B-B0E1-D3AE510487DA" /* pikaCover.h */,
+			);
+			name = cover;
+			path = src/modules/cover;
+			sourceTree = SOURCE_ROOT;
+		};
+		"D147FDE5-7A42-4D5A-8364-3484D4E7F951" /* src */ = {
+			isa = PBXGroup;
+			children = (
+				"69F06C91-C6C1-45BB-B513-B1562EE1C1D8" /* HStack.cpp */,
+				"1921D2A4-AD1A-40A5-ACED-C6E17583F288" /* HStack.h */,
+				"F1FDB6E9-7930-4A58-8720-148DB528FDB7" /* VStack.cpp */,
+				"4961443B-86BD-43F4-A8C3-EA73FBBF4CB0" /* VStack.h */,
+				"1E6DB3DC-03BA-4462-B8ED-631C766C5D76" /* marginBand.cpp */,
+				"422B681C-7F90-4155-B301-E11FB3717C02" /* marginBand.h */,
+				"FD8217E1-A598-4F54-A1F2-C20C2B8774CC" /* ofxFrameOcean.h */,
+			);
+			name = src;
+			path = src/addons/ofxFrameOcean/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				191CD6FA2847E21E0085CBB6 /* of.entitlements */,
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				191EF70929D778A400F35F26 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				E4B69B5B0A3A1756003C02F2 /* objectOSMin01Debug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				"36F6EBEE-5B79-4BCA-BB0A-890CD674A7DE" /* addons */,
+				"01FA4638-2AE6-424F-9AEF-FD3BC599644A" /* colorCloud.cpp */,
+				"9631AA75-3030-4B79-A6F0-83FB6555F6B7" /* colorCloud.h */,
+				"097D9903-5B85-4B97-8163-9B97CB69748D" /* modules */,
+				"38E74B6F-B550-4114-8EAF-B719E73BC314" /* objectOS.cpp */,
+				"2EE2DB75-DB80-4D05-B88F-2D859F072184" /* objectOS.h */,
+				"AECD9D26-001B-4CB5-8A33-DB03FC2B182F" /* videoCloud.cpp */,
+				"F5CA23D6-C931-4A3A-930C-6910A699C381" /* videoCloud.h */,
+				"E438579B-196B-4622-9D9E-692BDAA33515" /* wordCloud.cpp */,
+				"23FB02F2-8FB1-4E9E-A6F8-BB8A13BF1510" /* wordCloud.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		"F7976042-6CCA-4103-8D23-73BE74CADD39" /* graphic */ = {
+			isa = PBXGroup;
+			children = (
+				"F6E90A02-76F3-4324-9747-259C19D68B5C" /* badMode.cpp */,
+				"0C507F73-2AA7-4EF9-AA66-9D455ADA0831" /* badMode.h */,
+				"4F05D06B-7A50-4EC5-97E2-2E242DAB6318" /* nuWit.cpp */,
+				"F3094085-7EF6-45D3-96C7-5D38FDD2CC63" /* nuWit.h */,
+				"DE3E7116-D4AD-4BF3-BAC2-B9A966A3FC7A" /* togeToge.cpp */,
+				"C6928B1E-37F0-4EAB-91BB-1A5B7D9AE73D" /* togeToge.h */,
+			);
+			name = graphic;
+			path = src/modules/graphic;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* objectOSMin01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "objectOSMin01" */;
+			buildPhases = (
+				E42962A92163ECCD00A6A9E2 /* Run Script — Compile OF */,
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+				E4A5B60F29BAAAE400C2D356 /* CopyFiles */,
+				19B789C429E5AB4A0082E9B8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = objectOSMin01;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* objectOSMin01Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "objectOSMin01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* objectOSMin01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B789C429E5AB4A0082E9B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42962A92163ECCD00A6A9E2 /* Run Script — Compile OF */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script — Compile OF";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"💾 Compiling Openframeworks\"\nxcodebuild -project \"$OF_PATH/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj\" -target openFrameworks -configuration \"${CONFIGURATION}\"  CLANG_CXX_LANGUAGE_STANDARD=$CLANG_CXX_LANGUAGE_STANDARD MACOSX_DEPLOYMENT_TARGET=$MACOSX_DEPLOYMENT_TARGET GCC_PREPROCESSOR_DEFINITIONS=$USER_PREPROCESSOR_DEFINITIONS\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				"C2036885-8C5C-4456-B3E5-38AC4F5F8A88" /* HStack.cpp in Sources */,
+				"04C5593F-DC42-4FD7-8CC2-6C9984222978" /* VStack.cpp in Sources */,
+				"B9445A0A-3B94-4D0E-B4FE-C369A86974E9" /* marginBand.cpp in Sources */,
+				"F86BE193-8AD7-422E-ADD3-03C0250E7AFE" /* ofxTskokmtMath.cpp in Sources */,
+				"B748C73A-5126-4E01-B7D7-DDC50E5F8B6E" /* colorCloud.cpp in Sources */,
+				"56E261D9-2A89-4CF7-8A53-E662C3F94963" /* colorWorld.cpp in Sources */,
+				"FB27FA18-A43A-454A-A8F1-3C4E8CE3B3A5" /* twoTone.cpp in Sources */,
+				"C9BA44C4-8B56-40CF-96B7-D60D02A7439A" /* blackCover.cpp in Sources */,
+				"62DD237F-22B2-4745-B7EA-5877B69C4806" /* flashCover.cpp in Sources */,
+				"DCD3921D-20A7-4879-9195-B0B6AB974D66" /* oddCover.cpp in Sources */,
+				"8718142B-05F1-4A88-A05C-C81240EC6881" /* pikaCover.cpp in Sources */,
+				"61DA6350-B412-45A0-BBA1-EC00EE92F39E" /* badMode.cpp in Sources */,
+				"BA25FB81-47F7-4CF8-ACEB-7BF64352E543" /* nuWit.cpp in Sources */,
+				"4468373D-3C28-4457-99D3-D6F71BB196D8" /* togeToge.cpp in Sources */,
+				"6A31E6B5-E245-49E6-A367-3E536A013C9C" /* emergeScreen.cpp in Sources */,
+				"9FDD73B5-4CBA-42EE-882E-C60F51BBF511" /* fragScreen.cpp in Sources */,
+				"0E1479E5-99FC-4D7B-A03D-0024E0A82023" /* pushGrid.cpp in Sources */,
+				"FB06EE4C-7CB9-4415-9D1E-620A6D1C5FD1" /* slideGrid.cpp in Sources */,
+				"0E9AE0B0-9E48-45CC-8EC9-E980B2951D2E" /* splitGrid.cpp in Sources */,
+				"4D6C9178-9987-4953-93E6-49EE9611BC66" /* vipGrid.cpp in Sources */,
+				"15C1F12C-A348-4999-A5F5-D57E9CCC1300" /* objectOS.cpp in Sources */,
+				"76D46253-2443-4762-9E53-1D0E8160A3F1" /* videoCloud.cpp in Sources */,
+				"D0DA8009-954E-4420-9CE6-F992851E7E71" /* wordCloud.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = of.entitlements;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+				);
+				OTHER_CPLUSPLUSFLAGS = "-D__MACOSX_CORE__";
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = of.entitlements;
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_UNROLL_LOOPS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+				);
+				OTHER_CPLUSPLUSFLAGS = "-D__MACOSX_CORE__";
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/addons/ofxFrameOcean/src,
+					src/addons/ofxTskokmtFont/src,
+					src/addons/ofxTskokmtMath/src,
+					src/addons/ofxTskokmtTranslator/src,
+					src,
+					src/modules/chrome,
+					src/modules/cover,
+					src/modules/graphic,
+					src/modules/screen,
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF_DEBUG)",
+				);
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/addons/ofxFrameOcean/src,
+					src/addons/ofxTskokmtFont/src,
+					src/addons/ofxTskokmtMath/src,
+					src/addons/ofxTskokmtTranslator/src,
+					src,
+					src/modules/chrome,
+					src/modules/cover,
+					src/modules/graphic,
+					src/modules/screen,
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF)",
+				);
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "objectOSMin01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "objectOSMin01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
